@@ -3,7 +3,7 @@
 function conn()
 {
 
-  $dbname     = "mysite";
+  $dbname     = "";
   $dbhost     = "127.0.0.1";
   $dbusername = "";
   $dbpassword = "";
