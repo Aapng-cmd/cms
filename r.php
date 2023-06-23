@@ -5,8 +5,8 @@ function conn()
 
   $dbname     = "mysite";
   $dbhost     = "127.0.0.1";
-  $dbusername = "user2";
-  $dbpassword = "leech_pass";
+  $dbusername = "";
+  $dbpassword = "";
   
   $conn = new mysqli($dbhost, $dbusername, $dbpassword, $dbname);
   
