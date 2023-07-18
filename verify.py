@@ -13,8 +13,8 @@ msg_txt = "http://127.0.0.1/cms/reg.php?q=" + sa + "&email=" + dest_email
 
 def send_email(addr_to, f1le=0, msg_subj="Test", msg_text="hello"):
     msg = MIMEMultipart()
-    addr_from = "artod2023@mail.ru" # Отправитель
-    password = "7D7QFGs8ktrMgi0GHsxZ" # Пароль
+    addr_from = "" # Отправитель
+    password = "" # Пароль
 
 # msg = MIMEMultipart() # Создаем сообщение
     msg['From'] = addr_from # Адресат
